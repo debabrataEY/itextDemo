@@ -13,7 +13,7 @@ public class Application {
 	
 	public static final String DEST="HelloWorld.pdf";
 
-	public static void main(String[] args) throws IOException{		
+	public static void main(String[] args) throws IOException{	
 
 		File file=new File(DEST);
 		new Application().createPdf(DEST);
